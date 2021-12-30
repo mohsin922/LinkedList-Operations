@@ -23,7 +23,7 @@ namespace LinkedListOperations
                 }
                 temp.next = node;
             }
-            Console.WriteLine("{0} inserted into LinkedList", node.data);
+            Console.WriteLine("{0} node is created into LinkedList", node.data);
         }
         //Insert Front
         public void InsertFront(int data)
@@ -33,6 +33,33 @@ namespace LinkedListOperations
             this.head = new_node;
             Console.WriteLine("Inserted the list in front " + new_node.data);
         }
+        //Append new Node
+        public void Append(int data)
+        {
+            Node new_node = new Node(data);
+            new_node.data = data;//assign data element
+            new_node.next = null;//assign null to next of new node
+            //check linkedlist empty 
+            if (head == null)
+            {
+                head = new_node;
+
+            }
+            else
+            {
+                //traverse to last node
+                Node temp = new Node(data);
+                temp = head;
+                while (temp.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = new_node;
+
+            }
+            Console.WriteLine("{0} node is Appended in the LinkedList", new_node.data);
+        }
+
         //Display the nodes
         internal void Display()
         {
