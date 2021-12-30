@@ -7,17 +7,17 @@ namespace LinkedListOperations
     public class LinkedList
     {
         internal Node head;
-        internal void Add (int data)
+        internal void Add(int data)
         {
             Node node = new Node(data);
-            if(this.head == null)
+            if (this.head == null)
             {
                 this.head = node;
             }
             else
             {
                 Node temp = head;
-                while(temp.next != null)
+                while (temp.next != null)
                 {
                     temp = temp.next;
                 }
@@ -25,6 +25,15 @@ namespace LinkedListOperations
             }
             Console.WriteLine("{0} inserted into LinkedList", node.data);
         }
+        //Insert Front
+        public void InsertFront(int data)
+        {
+            Node new_node = new Node(data);
+            new_node.next = this.head;
+            this.head = new_node;
+            Console.WriteLine("Inserted the list in front " + new_node.data);
+        }
+        //Display the nodes
         internal void Display()
         {
             Node temp = this.head;
@@ -40,9 +49,6 @@ namespace LinkedListOperations
                 Console.Write("->");
                 temp = temp.next;
             }
-            
-
         }
     }
 }
-
