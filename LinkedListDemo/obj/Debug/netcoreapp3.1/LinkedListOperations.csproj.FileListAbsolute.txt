@@ -1,0 +1,14 @@
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.exe
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.deps.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.runtimeconfig.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.runtimeconfig.dev.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.dll
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\bin\Debug\netcoreapp3.1\LinkedListOperations.pdb
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.csproj.AssemblyReference.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.AssemblyInfoInputs.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.AssemblyInfo.cs
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.csproj.CoreCompileInputs.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.dll
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.pdb
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\LinkedListDemo\LinkedListDemo\obj\Debug\netcoreapp3.1\LinkedListOperations.genruntimeconfig.cache

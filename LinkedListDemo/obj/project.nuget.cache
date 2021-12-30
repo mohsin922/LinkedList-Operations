@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ggm4P8w5vU4OwCrWMN6xG6htKccTAPgaMJhewppSwM5+suDjjGhm4Njt34Ej7gYXSyLjzi9qdoxRH01ge9Pu0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MOHSIN ZAHOOR PEER\\Desktop\\LinkedListDemo\\LinkedListDemo\\LinkedListOperations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MOHSIN ZAHOOR PEER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
