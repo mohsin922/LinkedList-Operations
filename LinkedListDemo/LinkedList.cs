@@ -7,6 +7,7 @@ namespace LinkedListOperations
     public class LinkedList
     {
         internal Node head;
+        //Insert At Last
         internal void Add(int data)
         {
             Node node = new Node(data);
@@ -58,6 +59,39 @@ namespace LinkedListOperations
 
             }
             Console.WriteLine("{0} node is Appended in the LinkedList", new_node.data);
+        }
+
+        //Insert InBetween
+        public void InsertBetween(int pos, int data)
+        {
+            Node newNode = new Node(data);
+            if (pos == 1)
+            {
+                newNode.next = this.head;
+                head = newNode;
+            }
+            else if (pos <= 0)
+            {
+                Console.WriteLine("Invalid Position!");
+            }
+            else if (pos > 0)
+            {
+                Node temp = head;
+                while (pos != 0)
+                {
+                    if (pos == 2)
+                    {
+                        Console.WriteLine("Insertion is being done between two nodes");
+                        newNode.next = temp.next;
+                        temp.next = newNode;
+                        break;
+                    }
+                    temp = temp.next;
+                    Console.WriteLine(pos);
+                    pos--;
+                }
+
+            }
         }
 
         //Display the nodes

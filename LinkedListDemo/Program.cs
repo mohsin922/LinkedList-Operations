@@ -9,10 +9,10 @@ namespace LinkedListOperations
             Console.WriteLine("Welcome to Linked List Operations!");
             LinkedList list = new LinkedList();
             list.Add(56);
-            list.Append(30);
-            list.Append(70);
+            list.InsertBetween(2, 30);
+            list.Add(70);
             //Display Operation
-            Console.WriteLine("Appended Nodes inside Linked List are : ");
+            Console.WriteLine("Displaying LinkedList: ");
             list.Display();
         }
     }
