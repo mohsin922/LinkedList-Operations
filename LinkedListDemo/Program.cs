@@ -11,10 +11,7 @@ namespace LinkedListOperations
             list.Add(56);
             list.InsertBetween(2, 30);
             list.Add(70);
-            list.DeleteLast();
-            //Display Operation
-            Console.WriteLine("Displaying LinkedList: ");
-            list.Display();
+            Console.WriteLine(list.Search(30));
         }
     }
 }

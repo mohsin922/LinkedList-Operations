@@ -126,6 +126,22 @@ namespace LinkedListOperations
             return newNode;
 
         }
+
+        //Find a Node in LinkedList
+        public int Search(int value)
+        {
+            Node temp = this.head;
+            while (temp != null)
+            {
+                if (temp.data == value)
+                {
+                    Console.WriteLine("\nNode is present inside LinkedList: ");
+                    return value;
+                }
+                temp = temp.next;
+            }
+            return value;
+        }
         //Display the nodes
         internal void Display()
         {
