@@ -93,6 +93,18 @@ namespace LinkedListOperations
 
             }
         }
+        // Insert after 30
+        public void InsertAfter(Node exist_node, int new_data)
+        {
+            if (exist_node == null)
+            {
+                Console.WriteLine("This node not exist in list");
+                return;
+            }
+            Node new_node = new Node(new_data);
+            new_node.next = exist_node.next;
+            exist_node.next = new_node;
+        }
 
         //Delete Front Node
         public Node DeleteFirst()
